@@ -1,5 +1,6 @@
 {
   ProfessionSchema = {
+    type | String,
     id | String,
     name | String,
     description | String,
