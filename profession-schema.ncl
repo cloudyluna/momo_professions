@@ -1,6 +1,6 @@
 {
   ProfessionSchema = {
-    type | String,
+    type | String | default = "profession",
     id | String,
     name | String,
     description | String,
@@ -14,13 +14,13 @@
             items : Array String,
             entries
               : Array {
-                item : String | optional,
-                ammo-item : String | optional,
-                charges : Number | optional,
-                container-item : String | optional,
-                group : String | optional,
-                contents-group : String | optional,
-                custom-flags : Array String | optional,
+                item | String | optional,
+                ammo-item | String | optional,
+                charges | Number | optional,
+                container-item | String | optional,
+                group | String | optional,
+                contents-group | String | optional,
+                custom-flags | Array String | optional,
               }
           },
         male : Array String,
