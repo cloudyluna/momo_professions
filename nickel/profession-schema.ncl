@@ -1,20 +1,16 @@
 {
   Profession = {
-    ## Nickel-side only.
-    category | ProfessionCategory | doc "(dev)" | not_exported,
-    ##
     type
       | String
       | std.contract.from_predicate ((==) "profession")
       | doc "Hardcoded to 'profession'. Leave this alone!"
-      | default
       = "profession",
-    id | String | doc "Unique ID for the profession",
+    id | String | doc "Unique ID for the profession" | default,
     name | std.contract.any_of [ String, { male : String, female : String }],
     description | String,
-    points | Number | default = 5,
+    points | Number | default = 0,
     addictions | Array { type : Addictions, intensity : Number } | optional,
-    skills | Array { level : Number, name : Skill, } | optional,
+    skills | Array Skill | optional,
     traits | Array String | optional,
     cbms | Array String | optional,
     starting_cash | Number | optional,
@@ -55,7 +51,8 @@
     'opiate,
     '"sleeping pill",
   |],
-  Skill = [|
+  Skill = { name | SkillType, level | Number },
+  SkillType = [|
     'speech,
     'computer,
     'firstAid,
@@ -83,5 +80,4 @@
     'unarmed,
     'chemistry,
   |],
-  ProfessionCategory = [| |],
 }
