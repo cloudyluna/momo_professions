@@ -3,9 +3,11 @@
     "type": "MOD_INFO",
     "id": "le_professions",
     "name": "More specific professions",
-    "authors": ["Momo"],
+    "authors": [
+      "Momo"
+    ],
     "description": "Tons more of professions",
     "category": "rebalance",
-    "dependencies": ["bn"]
+    "dependencies": []
   }
 ]
