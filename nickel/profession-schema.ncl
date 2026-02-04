@@ -1,12 +1,11 @@
 {
   Profession = {
-    type | String | default = "profession",
-    id | String,
+    type | String | std.contract.from_predicate ((==) "profession") | default = "profession", # Leave this alone!
+    id | String, # Unique ID for the profession
     name | std.contract.any_of [ String, { male : String, female : String }],
-    ## Profession description.
     description | String,
     points | Number,
-    addictions | Array { type : String, intensity : Number } | optional,
+    addictions | Array { type : Addictions, intensity : Number } | optional,
     skills | Array { level : Number, name : Skill, } | optional,
     traits | Array String | optional,
     cbms | Array String | optional,
@@ -17,7 +16,7 @@
     allowed_bionics | Array String | optional,
     forbidden_bionics | Array String | optional,
     forbids_bionics | Bool | optional,
-    pets | Array String | optional,
+    pets | Array { name : String, amount : Number } | optional,
     items | Items
   },
   Items = {
@@ -38,6 +37,16 @@
     male | Array String | default = [],
     female | Array String | default = []
   },
+  Addictions = [|
+    'alcohol,
+    'amphetamine,
+    'caffeine,
+    'cocaine,
+    'crack,
+    'nicotine,
+    'opiate,
+    '"sleeping pills"
+  |],
   Skill = [|
     'speech,
     'computer,
@@ -65,5 +74,5 @@
     'stabbing,
     'unarmed,
     'chemistry,
-  |]
+  |],
 }
