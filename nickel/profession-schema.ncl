@@ -1,10 +1,18 @@
 {
   Profession = {
-    type | String | std.contract.from_predicate ((==) "profession") | default = "profession", # Leave this alone!
-    id | String, # Unique ID for the profession
+    ## Nickel-side only.
+    category | ProfessionCategory | doc "(dev)" | not_exported,
+    ##
+    type
+      | String
+      | std.contract.from_predicate ((==) "profession")
+      | doc "Hardcoded to 'profession'. Leave this alone!"
+      | default
+      = "profession",
+    id | String | doc "Unique ID for the profession",
     name | std.contract.any_of [ String, { male : String, female : String }],
     description | String,
-    points | Number,
+    points | Number | default = 5,
     addictions | Array { type : Addictions, intensity : Number } | optional,
     skills | Array { level : Number, name : Skill, } | optional,
     traits | Array String | optional,
@@ -45,7 +53,7 @@
     'crack,
     'nicotine,
     'opiate,
-    '"sleeping pills"
+    '"sleeping pill",
   |],
   Skill = [|
     'speech,
@@ -75,4 +83,5 @@
     'unarmed,
     'chemistry,
   |],
+  ProfessionCategory = [| |],
 }

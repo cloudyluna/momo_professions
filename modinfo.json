@@ -8,6 +8,8 @@
     ],
     "description": "Tons more of professions",
     "category": "rebalance",
-    "dependencies": []
+    "dependencies": [
+      "bn"
+    ]
   }
 ]
