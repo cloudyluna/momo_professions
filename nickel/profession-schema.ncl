@@ -4,6 +4,7 @@
     type | String | default = "profession",
     id | String,
     name | std.contract.any_of [ String, { male : String, female : String }],
+    ## Profession description.
     description | String,
     points | Number,
     addictions | Array { type : String, intensity : Number } | optional,

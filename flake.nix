@@ -26,6 +26,7 @@
           pkgs.mkShell rec {
             nativeBuildInputs = [
               nickel
+              nls
             ];
             buildInputs = [
               pkg-config
