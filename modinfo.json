@@ -2,14 +2,15 @@
   {
     "type": "MOD_INFO",
     "id": "le_professions",
-    "name": "More specific professions",
+    "name": "More Professions",
     "authors": [
       "Momo"
     ],
-    "description": "Tons more of professions",
+    "description": "Plenty of quirky professions inside.",
     "category": "rebalance",
     "dependencies": [
-      "bn"
+      "bn",
+      "pride_flags"
     ]
   }
 ]

@@ -1,4 +1,8 @@
+let SCHEMA_VERSION : Array Number = [0, 9, 1] in
+let MAX : Number = 99999 in
 {
+  include MAX,
+  include SCHEMA_VERSION,
   Profession = {
     type
       | String
@@ -30,12 +34,14 @@
         entries
           : Array {
             item | String | optional,
+            group | String | optional,
             ammo-item | String | optional,
             charges | Number | optional,
             container-item | String | optional,
             group | String | optional,
             contents-group | String | optional,
             custom-flags | Array String | optional,
+            variant | String | optional,
           }
       },
     male | Array String | default = [],

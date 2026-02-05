@@ -1,0 +1,115 @@
+[
+  {
+    "addictions": [
+      {
+        "intensity": 2,
+        "type": "caffeine"
+      }
+    ],
+    "description": "Too deep in the system to stop distro hopping and building GNOME applications.",
+    "id": "le_prof_linux_programmer",
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "custom-flags": [
+              "no_auto_equip"
+            ],
+            "item": "rainbow_flag"
+          },
+          {
+            "custom-flags": [
+              "no_auto_equip"
+            ],
+            "item": "trans_flag"
+          },
+          {
+            "charges": 99999,
+            "item": "smart_phone"
+          },
+          {
+            "charges": 99999,
+            "item": "eink_tablet_pc"
+          },
+          {
+            "charges": 99999,
+            "item": "laptop"
+          },
+          {
+            "charges": 99999,
+            "container-item": "jar_glass_sealed",
+            "item": "granola"
+          },
+          {
+            "charges": 99999,
+            "container-item": "jar_glass_sealed",
+            "item": "coffee_raw"
+          },
+          {
+            "charges": 99999,
+            "container-item": "jar_glass_sealed",
+            "item": "coffee_raw"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "charges": 99999,
+            "item": "light_battery_cell"
+          },
+          {
+            "charges": 99999,
+            "item": "light_battery_cell"
+          },
+          {
+            "charges": 99999,
+            "item": "light_battery_cell"
+          }
+        ],
+        "items": [
+          "linuxtshirt",
+          "arm_warmers",
+          "sneakers",
+          "backpack",
+          "spoon",
+          "ceramic_mug"
+        ]
+      },
+      "female": [
+        "sports_bra",
+        "skirt",
+        "panties"
+      ],
+      "male": [
+        "camisole",
+        "shorts_denim",
+        "boy_shorts"
+      ]
+    },
+    "name": "Linux Programmer",
+    "points": 0,
+    "skills": [
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 1,
+        "name": "electronics"
+      }
+    ],
+    "type": "profession"
+  }
+]
