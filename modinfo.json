@@ -1,12 +1,12 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "le_professions",
-    "name": "More Professions",
+    "id": "momo_professions",
+    "name": "Momo's Professions",
     "authors": [
       "Momo"
     ],
-    "description": "Plenty of quirky professions inside.",
+    "description": "A series of lore-friendly, quirky professions for the post-apocalyptic world.",
     "category": "rebalance",
     "dependencies": [
       "bn",

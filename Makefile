@@ -1,4 +1,4 @@
-PREFIX=$(HOME)/.var/app/org.cataclysmbn.CataclysmBN/data/cataclysm-bn/mods/le_professions
+PREFIX=$(HOME)/.var/app/org.cataclysmbn.CataclysmBN/data/cataclysm-bn/mods/momo_professions
 NICKEL=nickel
 SOURCES_DIR=nickel/professions
 ALL_SOURCES=$(wildcard $(SOURCES_DIR)/*.ncl)

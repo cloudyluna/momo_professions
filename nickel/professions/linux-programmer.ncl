@@ -1,4 +1,4 @@
-let { schema, transform_profession } = import "../prelude.ncl" in
+let { schema, transform_profession, mk_n_item, mk_item } = import "../prelude.ncl" in
 let { Profession, MAX, .. } = schema in
 
 let profession =
@@ -21,16 +21,17 @@ let profession =
           ],
           entries =
             [
-              { item = "rainbow_flag", custom-flags = ["no_auto_equip"] },
-              { item = "trans_flag", custom-flags = ["no_auto_equip"] },
-              { item = "smart_phone", charges = MAX },
-              { item = "eink_tablet_pc", charges = MAX },
-              { item = "laptop", charges = MAX },
-              { item = "granola", charges = MAX, container-item = "jar_glass_sealed" }
+              mk_item "rainbow_flag" { custom-flags = ["no_auto_equip"] },
+              mk_item "trans_flag" { custom-flags = ["no_auto_equip"] },
+              mk_item "smart_phone" { charges = MAX },
+              mk_item "eink_tablet_pc" { charges = MAX },
+              mk_item "laptop" { charges = MAX },
+              mk_item "granola" { charges = MAX, container-item = "jar_glass_sealed" }
             ]
-            @ std.array.replicate 2 { item = "coffee_raw", charges = MAX, container-item = "jar_glass_sealed" }
-            @ std.array.replicate 5 { item = "energy_drink" }
-            @ std.array.replicate 3 { item = "light_battery_cell", charges = MAX },
+            @ mk_n_item 2 "coffee_raw" { charges = MAX, container-item = "jar_glass_sealed" }
+            @ mk_n_item 5 "energy_drink" {}
+            @ mk_n_item 3 "light_battery_cell" { charges = MAX }
+            @ mk_n_item 2 "mobile_memory_card_used" {}
         },
         male = ["camisole", "shorts_denim", "boy_shorts"],
         female = ["sports_bra", "skirt", "panties"],

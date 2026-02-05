@@ -7,7 +7,7 @@
       }
     ],
     "description": "Too deep in the system to stop distro hopping and building GNOME applications.",
-    "id": "le_prof_linux_programmer",
+    "id": "momo_prof_linux_programmer",
     "items": {
       "both": {
         "entries": [
@@ -76,6 +76,12 @@
           {
             "charges": 99999,
             "item": "light_battery_cell"
+          },
+          {
+            "item": "mobile_memory_card_used"
+          },
+          {
+            "item": "mobile_memory_card_used"
           }
         ],
         "items": [

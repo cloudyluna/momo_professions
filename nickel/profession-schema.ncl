@@ -30,22 +30,22 @@ let MAX : Number = 99999 in
   Items = {
     both
       | {
-        items : Array String,
-        entries
-          : Array {
-            item | String | optional,
-            group | String | optional,
-            ammo-item | String | optional,
-            charges | Number | optional,
-            container-item | String | optional,
-            group | String | optional,
-            contents-group | String | optional,
-            custom-flags | Array String | optional,
-            variant | String | optional,
-          }
+        items | Array String,
+        entries | Array Entry,
       },
     male | Array String | default = [],
     female | Array String | default = []
+  },
+  Entry = {
+    item | String | optional,
+    group | String | optional,
+    ammo-item | String | optional,
+    charges | Number | optional,
+    container-item | String | optional,
+    group | String | optional,
+    contents-group | String | optional,
+    custom-flags | Array String | optional,
+    variant | String | optional,
   },
   Addictions = [|
     'alcohol,
