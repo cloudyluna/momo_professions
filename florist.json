@@ -1,0 +1,82 @@
+[
+  {
+    "description": "Gotta cultivate those post-apocalyptic flowers.",
+    "id": "momo_prof_florist",
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "charges": 99999,
+            "item": "smart_phone"
+          },
+          {
+            "charges": 99999,
+            "item": "fertilizer_liquid"
+          },
+          {
+            "charges": 20,
+            "container-item": "bag_plastic",
+            "item": "seed_sunflower"
+          },
+          {
+            "charges": 10,
+            "container-item": "bag_plastic",
+            "item": "seed_chamomile"
+          },
+          {
+            "charges": 15,
+            "item": "granola"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          }
+        ],
+        "items": [
+          "technician_shirt_gray",
+          "gloves_work",
+          "boots",
+          "backpack",
+          "shovel",
+          "g_shovel",
+          "energy_drink"
+        ]
+      },
+      "female": [
+        "sports_bra",
+        "pants_cargo",
+        "panties"
+      ],
+      "male": [
+        "camisole",
+        "pants_cargo",
+        "boy_shorts"
+      ]
+    },
+    "name": "Florist",
+    "points": 0,
+    "skills": [
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "type": "profession"
+  }
+]
