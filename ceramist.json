@@ -1,0 +1,81 @@
+[
+  {
+    "description": "The bowls and plates won't make themselves.",
+    "id": "momo_prof_ceramist",
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "charges": 99999,
+            "item": "smart_phone"
+          },
+          {
+            "charges": 15,
+            "item": "granola"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "item": "clay_lump"
+          },
+          {
+            "item": "clay_lump"
+          },
+          {
+            "item": "clay_lump"
+          },
+          {
+            "item": "clay_lump"
+          },
+          {
+            "item": "clay_lump"
+          }
+        ],
+        "items": [
+          "technician_shirt_gray",
+          "gloves_work",
+          "boots",
+          "backpack",
+          "energy_drink"
+        ]
+      },
+      "female": [
+        "sports_bra",
+        "pants_cargo",
+        "panties"
+      ],
+      "male": [
+        "camisole",
+        "pants_cargo",
+        "boy_shorts"
+      ]
+    },
+    "name": "Ceramist",
+    "points": 0,
+    "skills": [
+      {
+        "level": 3,
+        "name": "fabrication"
+      }
+    ],
+    "type": "profession"
+  }
+]
