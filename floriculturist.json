@@ -1,7 +1,7 @@
 [
   {
     "description": "Gotta cultivate those post-apocalyptic flowers.",
-    "id": "momo_prof_florist",
+    "id": "momo_prof_floriculturist",
     "items": {
       "both": {
         "entries": [
@@ -69,7 +69,7 @@
         "boy_shorts"
       ]
     },
-    "name": "Florist",
+    "name": "Floriculturist",
     "points": 0,
     "skills": [
       {

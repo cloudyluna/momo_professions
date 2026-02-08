@@ -4,8 +4,8 @@ let { Profession, MAX, .. } = schema in
 let profession =
   transform_profession [
     {
-      id = "florist",
-      name = "Florist",
+      id = "floriculturist",
+      name = "Floriculturist",
       description = "Gotta cultivate those post-apocalyptic flowers.",
       skills = [{ name = 'survival, level = 2 }],
       items = {
