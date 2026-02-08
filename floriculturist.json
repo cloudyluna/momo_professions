@@ -24,28 +24,28 @@
             "item": "seed_chamomile"
           },
           {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
             "charges": 15,
             "item": "granola"
-          },
-          {
-            "charges": 99999,
-            "item": "water_clean"
-          },
-          {
-            "charges": 99999,
-            "item": "water_clean"
-          },
-          {
-            "charges": 99999,
-            "item": "water_clean"
-          },
-          {
-            "charges": 99999,
-            "item": "water_clean"
-          },
-          {
-            "charges": 99999,
-            "item": "water_clean"
           }
         ],
         "items": [

@@ -38,50 +38,69 @@
           {
             "charges": 99999,
             "container-item": "jar_glass_sealed",
+            "item": "coffee_raw"
+          },
+          {
+            "charges": 99999,
+            "container-item": "jar_glass_sealed",
+            "item": "coffee_raw"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "item": "energy_drink"
+          },
+          {
+            "charges": 99999,
+            "item": "light_battery_cell"
+          },
+          {
+            "charges": 99999,
+            "item": "light_battery_cell"
+          },
+          {
+            "charges": 99999,
+            "item": "light_battery_cell"
+          },
+          {
+            "item": "mobile_memory_card_used"
+          },
+          {
+            "item": "mobile_memory_card_used"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 99999,
+            "item": "water_clean"
+          },
+          {
+            "charges": 15,
             "item": "granola"
-          },
-          {
-            "charges": 99999,
-            "container-item": "jar_glass_sealed",
-            "item": "coffee_raw"
-          },
-          {
-            "charges": 99999,
-            "container-item": "jar_glass_sealed",
-            "item": "coffee_raw"
-          },
-          {
-            "item": "energy_drink"
-          },
-          {
-            "item": "energy_drink"
-          },
-          {
-            "item": "energy_drink"
-          },
-          {
-            "item": "energy_drink"
-          },
-          {
-            "item": "energy_drink"
-          },
-          {
-            "charges": 99999,
-            "item": "light_battery_cell"
-          },
-          {
-            "charges": 99999,
-            "item": "light_battery_cell"
-          },
-          {
-            "charges": 99999,
-            "item": "light_battery_cell"
-          },
-          {
-            "item": "mobile_memory_card_used"
-          },
-          {
-            "item": "mobile_memory_card_used"
           }
         ],
         "items": [

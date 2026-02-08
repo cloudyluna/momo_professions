@@ -19,15 +19,12 @@ let profession =
             "g_shovel",
             "energy_drink"
           ],
-          entries =
-            [
-              mk_item "smart_phone" { charges = MAX },
-              mk_item "fertilizer_liquid" { charges = MAX },
-              mk_item "seed_sunflower" { charges = 20, container-item = "bag_plastic" },
-              mk_item "seed_chamomile" { charges = 10, container-item = "bag_plastic" },
-              mk_item "granola" { charges = 15 }
-            ]
-            @ mk_n_item 5 "water_clean" { charges = MAX }
+          entries = [
+            mk_item "smart_phone" { charges = MAX },
+            mk_item "fertilizer_liquid" { charges = MAX },
+            mk_item "seed_sunflower" { charges = 20, container-item = "bag_plastic" },
+            mk_item "seed_chamomile" { charges = 10, container-item = "bag_plastic" },
+          ]
         },
         male = ["camisole", "pants_cargo", "boy_shorts"],
         female = ["sports_bra", "pants_cargo", "panties"],

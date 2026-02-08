@@ -20,9 +20,7 @@ let profession =
           entries =
             [
               mk_item "smart_phone" { charges = MAX },
-              mk_item "granola" { charges = 15 }
             ]
-            @ mk_n_item 5 "water_clean" { charges = MAX }
             @ mk_n_item 5 "clay_lump" {}
         },
         male = ["camisole", "pants_cargo", "boy_shorts"],

@@ -26,7 +26,6 @@ let profession =
               mk_item "smart_phone" { charges = MAX },
               mk_item "eink_tablet_pc" { charges = MAX },
               mk_item "laptop" { charges = MAX },
-              mk_item "granola" { charges = MAX, container-item = "jar_glass_sealed" }
             ]
             @ mk_n_item 2 "coffee_raw" { charges = MAX, container-item = "jar_glass_sealed" }
             @ mk_n_item 5 "energy_drink" {}
