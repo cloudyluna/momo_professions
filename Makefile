@@ -6,11 +6,17 @@ FORBIDDEN_SOURCES=$(wildcard $(SOURCES_DIR)/prelude.ncl $(SOURCES_DIR)/*-schema.
 SOURCES=$(filter-out $(FORBIDDEN_SOURCES), $(ALL_SOURCES))
 OUTPUTS=$(SOURCES:.ncl=.json)
 
+.PHONY: all
+
 all: $(OUTPUTS)
 
 $(OUTPUTS): %.json: %.ncl
+	echo
+	$(NICKEL) format $<
 	$(NICKEL) export $< --output $@
 	mv $@ .
+	rename 's/-/_/g' *.json
+
 
 install: $(OUTPUTS)
 	mkdir -p $(PREFIX)

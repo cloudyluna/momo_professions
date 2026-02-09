@@ -27,6 +27,7 @@
             nativeBuildInputs = [
               nickel
               nls
+              rename
             ];
             buildInputs = [
               pkg-config
