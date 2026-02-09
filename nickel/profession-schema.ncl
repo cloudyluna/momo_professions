@@ -1,4 +1,4 @@
-let SCHEMA_VERSION : Array Number = [0, 9, 1] in
+let SCHEMA_VERSION : Array Number = [0, 10, 0] in
 let MAX : Number = 99999 in
 {
   include MAX,
