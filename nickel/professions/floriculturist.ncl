@@ -6,7 +6,7 @@ let profession =
     {
       id = "floriculturist",
       name = "Floriculturist",
-      description = "Gotta cultivate those post-apocalyptic flowers.",
+      description = "Gotta cultivate those post-apocalyptic flowers",
       skills = [{ name = 'survival, level = 2 }],
       items = {
         both = {

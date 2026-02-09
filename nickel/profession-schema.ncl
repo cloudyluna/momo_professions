@@ -61,7 +61,7 @@ let MAX : Number = 99999 in
   SkillType = [|
     'speech,
     'computer,
-    'firstAid,
+    'firstaid,
     'mechanics,
     'traps,
     'driving,
