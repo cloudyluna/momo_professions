@@ -13,8 +13,7 @@ let transform_profession : Array Profession -> Array Profession = fun profs =>
             id | String | force = mk_id_prefix prof.id,
             items.both.entries | force = prof.items.both.entries
                 @ mk_n_item 5 "water_clean" { charges = MAX }
-                @ mk_n_item 1 "granola" { charges = 15
-            }
+                @ mk_n_item 1 "granola" { charges = 15 }
         } | Profession
     )
 in
