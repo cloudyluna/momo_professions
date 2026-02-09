@@ -6,7 +6,7 @@ let profession =
     {
       id = "linux_programmer",
       name = "Linux Programmer",
-      description = "Too deep in the system to stop distro hopping and building GNOME applications.",
+      description = "The dead need their kernel updated too...",
       addictions = [{ type = 'caffeine, intensity = 2 }],
       skills = [{ name = 'computer, level = 3 }, { name = 'electronics, level = 1 }],
       items = {
