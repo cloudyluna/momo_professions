@@ -1,1 +1,3 @@
 .direnv/
+*.tar.gz
+momo_professions/
